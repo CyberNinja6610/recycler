@@ -33,8 +33,8 @@ private val empty = Post(
 )
 
 private val noPhoto = PhotoModel()
-private const val today = /*24* 60* */60;
-private const val yesterday = 2* /*24* 60**/ 60;
+private const val today = 24* 60* 60;
+private const val yesterday = 2* 24* 60* 60;
 
 @OptIn(ExperimentalCoroutinesApi::class)
 @HiltViewModel
